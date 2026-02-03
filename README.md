@@ -29,7 +29,6 @@ Given a **50×50 grayscale image** with **exactly one pixel having value 255**, 
 - Flatten + Dense layers for coordinate regression
 - Loss function: **Mean Squared Error (MSE)**
 
-
 ## 🚀 Steps Followed
 1. Generate synthetic dataset
 2. Normalize images and coordinates
@@ -38,17 +37,15 @@ Given a **50×50 grayscale image** with **exactly one pixel having value 255**, 
 5. Evaluate using **Mean Pixel Error**
 6. Visualize predictions vs ground truth
 
-
 ## 📊 Results
 - **Mean Pixel Error:** ~`0.21 px`
 - **Median Pixel Error:** ~`0.18 px`
 - Near-perfect pixel localization on test data
-
 
 ## 📦 Tech Stack
 - 🐍 Python  
 - 🤖 TensorFlow / Keras  
 - 📊 NumPy, Matplotlib, Scikit-learn  
 
-
-## 📁 Repository Structure
+## ✅ Conclusion
+This project demonstrates how a **simple and well-designed CNN** can achieve **sub-pixel accuracy** when spatial information is preserved, highlighting the importance of architectural choices over model complexity.
